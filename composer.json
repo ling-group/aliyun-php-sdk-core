@@ -1,0 +1,20 @@
+{
+    "name": "superman2014/aliyun-php-sdk-core",
+    "description": "aliyun php sdk core",
+    "authors": [
+        {
+            "name": "liujingyu",
+            "email": "jingyu525@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Superman2014\\Aliyun\\Core\\": "aliyun-php-sdk-core/"
+        }
+    },
+    "minimum-stability":"dev",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-openssl":"*"
+    }
+}

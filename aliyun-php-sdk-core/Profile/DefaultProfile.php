@@ -22,6 +22,7 @@ namespace Superman2014\Aliyun\Core\Profile;
 use Superman2014\Aliyun\Core\Auth\Credential;
 use Superman2014\Aliyun\Core\Auth\ShaHmac1Signer;
 use Superman2014\Aliyun\Core\Regions\EndpointProvider;
+use Superman2014\Aliyun\Core\Regions\ProductDomain;
 
 class DefaultProfile implements IClientProfile
 {
